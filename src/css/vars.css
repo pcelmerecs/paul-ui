@@ -15,7 +15,7 @@
   --color-jet-30: #424242;
   --color-jet-50: #333;
   --color-jet-70: #346aa8;
-  --color-jet-80: #518ACB;
+  --color-jet-80: #518acb;
   --color-black: #000;
   /* fonts */
   --rem-base: 18; /* used to compute rem value from desired pixel value (e.g., calc(18 / var(--rem-base) * 1rem) = 18px) */
