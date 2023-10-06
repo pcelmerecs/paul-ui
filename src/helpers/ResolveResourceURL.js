@@ -6,6 +6,6 @@ module.exports = (spec, { data, hash: context }) => {
   if (page.component) {
     context = Object.assign({ component: page.component.name, version: page.version, module: page.module }, context)
   }
-  const file = contentCatalog.resolveResource(spec, context, 'page', ['page', 'attachment', 'image'])
+  const file = contentCatalog.resolveResourceUrl(spec, context, 'page', ['page', 'attachment', 'image'])
   if (file) return file.pub.url
 }
